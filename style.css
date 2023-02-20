@@ -1,12 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vidaloka&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Vidaloka", serif;
+}
 .hero {
 	background: url("./assets/Intersect.png") no-repeat;
 	background-position: right top;
 	background-color: #ffd699;
 	background-size: contain;
+	background-attachment: fixed;
 }
 .vr {
 	height: 30px;
 }
-.active {
+.nav-link .active {
 	border-bottom: 3px solid #ed8e00;
+}
+.heading1 {
+	font-size: 80px;
+}
+.heading2 {
+	font-size: 70px;
+}
+.featured {
+	height: 500px;
+}
+.text-yellow {
+	color: #ed8e00;
+}
+.carousel-item img {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+.overlay {
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: 0;
+}
+.btn-yellow {
+	background-color: #ed8e00;
+	padding: 10px 40px;
+	color: white;
+	border: none;
+}
+.btn-underlined {
+	padding: 3px 10px;
+	border-bottom: 3px solid #ed8e00;
+	text-decoration: none;
+	color: black;
 }
